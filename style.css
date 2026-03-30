@@ -1,0 +1,11 @@
+body{
+    margin: 10px;
+    background-image: url(ocean.png);
+    background-position: right ;
+    background-repeat: repeat;
+    background-size: cover;
+    background-size: auto ;
+}
+footer{
+    background-color: cadetblue;
+}
