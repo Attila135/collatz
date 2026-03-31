@@ -1,5 +1,5 @@
 function saa() {
-    x = document.getElementById("x").innerHTML;
+    let x = document.getElementById("x").innerHTML;
         console.log(x);
     //let x = 894
     while (x != 1 & x != 0) {
