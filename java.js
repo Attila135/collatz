@@ -7,7 +7,7 @@ function saa() {
             x = x / 2;
         }
         console.log(x);
-        document.getElementById("y").innerHTML = x.value;
+        document.getElementById("y").innerHTML = x.innerHTML;
     }
 
 }
