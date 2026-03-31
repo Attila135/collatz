@@ -1,4 +1,5 @@
 function saa() {
+        document.getElementById("y").innerHTML = "";
     let x = document.getElementById("x").value;
     while (x != 1 & x != 0) {
         if (x % 2 == 1) {
@@ -7,7 +8,7 @@ function saa() {
             x = x / 2;
         }
         console.log(x);
-        document.getElementById("y").innerHTML = x;
+        document.getElementById("y").innerHTML = document.getElementById("y").innerHTML + x + " ";
     }
 
 }
